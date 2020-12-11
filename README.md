@@ -20,11 +20,11 @@ $ npm install @yeldirium/result
 
 ## What is this and why would I use it
 
-Error handling is an integral part of reliable applications. Unfortunately, TypeScript does not provide a way to type-check exceptions or to even annotate functions with information about the exceptions they might throw. This makes all exceptions in TypeScript unchecked, unexpectable and unreliable.
+Error handling is an integral part of reliable applications. Unfortunately, TypeScript does not provide a way to type-check exceptions or to even annotate functions with information about the exceptions they might throw. This makes all exceptions in TypeScript unchecked, unpredictable and unreliable.
 
 In addition to that, JavaScript - and by extension, TypeScript - does not differentiate between recoverable errors and unrecoverable errors. I recommend [this blog post by Joe Duffy](http://joeduffyblog.com/2016/02/07/the-error-model/) on the difference between the two and various ways to implement them.
 
-This library aims to differentiate between recoverable errors and unrecoverable ones, by wrapping recoverable errors in a data structure. This approach is a more fancy version of the basic concept of error codes. Wrapping errors in data structures that have semantics is an attempt to bring concepts from languages like haskell into TypeScript. Consider this situation:
+This library aims to differentiate between recoverable errors and unrecoverable ones, by wrapping recoverable errors in a data structure. This approach is a more fancy version of the basic concept of error codes. Wrapping errors in data structures that have semantics is an attempt to bring concepts from languages like Haskell into TypeScript. Consider this situation:
 
 ```typescript
 const configuration = await loadConfiguration();
@@ -32,7 +32,7 @@ const configuration = await loadConfiguration();
 await startServer(configuration.port ?? 3000);
 ```
 
-Here, `loadConfiguration` might fail for several reasons. It might load something from disk and that might fail because the config file does not exist. It might also faile because the configuration file is too large and the process runs out of memory. The former we want to handle - since we have default value for the port. The latter we do not want to handle, since we can't do anything about it. So imagine, `loadConfiguration` would announce its recoverable errors in its signature:
+Here, `loadConfiguration` might fail for several reasons. It might load something from disk and that might fail because the config file does not exist. It might also fail because the configuration file is too large and the process runs out of memory. The former we want to handle - since we have default value for the port. The latter we do not want to handle, since we can't do anything about it. So imagine, `loadConfiguration` would announce its recoverable errors in its signature:
 
 ```typescript
 import fs from 'fs';
@@ -77,7 +77,7 @@ result = failedResult;
 result = successfulResult;
 ```
 
-When you get a result from a function, you can check wether it has failed and act appropriately:
+When you get a result from a function, you can check whether it has failed and act appropriately:
 
 ```typescript
 import { isFailed, Result } from '@yeldirium/result';
