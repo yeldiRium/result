@@ -1,0 +1,34 @@
+{
+  "name": "@yeldirium/result",
+  "version": "0.0.1",
+  "description": "An algebraic datatype wrapper for results and errors.",
+  "author": {
+    "name": "Hannes Leutloff",
+    "email": "hannes.leutloff@yeldirium.de",
+    "url": "https://yeldirium.de/"
+  },
+  "contributors": [
+    {
+      "name": "Alexander 'dotKuro' Kampf",
+      "url": "https://github.com/dotkuro"
+    },
+    {
+      "name": "Noah Hummel",
+      "email": "info@hummelit.de"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yeldirium/result.git"
+  },
+  "main": "build/lib/index.js",
+  "types": "build/lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "assertthat": "5.2.1",
+    "roboter": "11.4.2"
+  }
+}
