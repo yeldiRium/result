@@ -15,7 +15,7 @@ An algebraic datatype wrapper for results and errors.
 ## Installation
 
 ```shell
-$ npm install result
+$ npm install @yeldirium/result
 ```
 
 ## What is this and why would I use it
