@@ -6,11 +6,11 @@ An algebraic datatype wrapper for results and errors.
 
 | Category         | Status                                                                                                    |
 | ---------------- | --------------------------------------------------------------------------------------------------------- |
-| Version          | [![npm](https://img.shields.io/npm/v/result)](https://www.npmjs.com/package/result)           |
-| Dependencies     | ![David](https://img.shields.io/david/yeldirium/result)                                          |
-| Dev dependencies | ![David](https://img.shields.io/david/dev/yeldirium/result)                                      |
-| Build            | ![GitHub Actions](https://github.com/yeldirium/result/workflows/Release/badge.svg?branch=master) |
-| License          | ![GitHub](https://img.shields.io/github/license/yeldirium/result)                                |
+| Version          | [![npm](https://img.shields.io/npm/v/@yeldirium/result)](https://www.npmjs.com/package/@yeldirium/result) |
+| Dependencies     | ![David](https://img.shields.io/david/yeldirium/result)                                                   |
+| Dev dependencies | ![David](https://img.shields.io/david/dev/yeldirium/result)                                               |
+| Build            | ![GitHub Actions](https://github.com/yeldirium/result/workflows/Release/badge.svg?branch=master)          |
+| License          | ![GitHub](https://img.shields.io/github/license/yeldirium/result)                                         |
 
 ## Installation
 
