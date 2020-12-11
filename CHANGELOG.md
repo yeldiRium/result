@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/yeldirium/result/compare/v1.0.1...v1.0.2) (2020-12-11)
+
+
+### Bug Fixes
+
+* Trigger release to update documentation in npm. ([b1818df](https://github.com/yeldirium/result/commit/b1818df4143bbcfe8936cb1a68ffb7199c586ad6))
+
 ## [1.0.1](https://github.com/yeldirium/result/compare/v1.0.0...v1.0.1) (2020-12-11)
 
 
