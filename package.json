@@ -28,7 +28,10 @@
     "access": "public"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
     "assertthat": "5.2.1",
-    "roboter": "11.4.2"
+    "roboter": "11.4.2",
+    "semantic-release": "17.3.0"
   }
 }
