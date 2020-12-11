@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/yeldirium/result/compare/v1.0.0...v1.0.1) (2020-12-11)
+
+
+### Bug Fixes
+
+* Add license file, fix badge url in readme. ([3a846ab](https://github.com/yeldirium/result/commit/3a846ab3c06615ea6a86f494d13ddecde1a7c1ae))
+
 # 1.0.0 (2020-12-11)
 
 
