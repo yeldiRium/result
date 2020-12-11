@@ -9,7 +9,7 @@ An algebraic datatype wrapper for results and errors.
 | Version          | [![npm](https://img.shields.io/npm/v/@yeldirium/result)](https://www.npmjs.com/package/@yeldirium/result) |
 | Dependencies     | ![David](https://img.shields.io/david/yeldirium/result)                                                   |
 | Dev dependencies | ![David](https://img.shields.io/david/dev/yeldirium/result)                                               |
-| Build            | ![GitHub Actions](https://github.com/yeldirium/result/workflows/Release/badge.svg?branch=master)          |
+| Build            | ![GitHub Actions](https://github.com/yeldirium/result/workflows/Release/badge.svg?branch=main)            |
 | License          | ![GitHub](https://img.shields.io/github/license/yeldirium/result)                                         |
 
 ## Installation
