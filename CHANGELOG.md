@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/yeldirium/result/compare/v1.0.3...v1.1.0) (2020-12-12)
+
+
+### Features
+
+* Allow `okay` to be used without a parameter. ([37dc27a](https://github.com/yeldirium/result/commit/37dc27a26f8246aa380f50d36a204ce29ef70de0))
+
 ## [1.0.3](https://github.com/yeldirium/result/compare/v1.0.2...v1.0.3) (2020-12-12)
 
 
