@@ -3,7 +3,10 @@ interface Okay<TValue> {
   value: TValue;
 }
 
-const okay = function <TValue>(value: TValue): Okay<TValue> {
+const okay: {
+  <TValue extends undefined>(): Okay<TValue>;
+  <TValue>(value: TValue): Okay<TValue>;
+} = function <TValue>(value?: TValue): Okay<TValue | undefined> {
   return {
     isFailed: false,
     value

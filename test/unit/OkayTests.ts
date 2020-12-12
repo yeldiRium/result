@@ -12,4 +12,13 @@ suite('okay', (): void => {
       value
     });
   });
+
+  test('may be used without a parameter.', async (): Promise<void> => {
+    const result = okay();
+
+    assert.that(result).is.equalTo({
+      isFailed: false,
+      value: undefined
+    });
+  });
 });
