@@ -109,7 +109,7 @@ const value = unpackOrCrash(someResult);
 
 ## Running the quality assurance
 
-To build this module use [roboter](https://www.npmjs.com/package/roboter).
+To lint and test this package use [roboter](https://www.npmjs.com/package/roboter).
 
 ```shell
 $ npx roboter
