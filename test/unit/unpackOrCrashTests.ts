@@ -25,4 +25,21 @@ suite('unpackOrCrash', (): void => {
       return true;
     });
   });
+
+  test('calls the error handler and throws the returned error if the result is failed and an error handler is given.', async (): Promise<void> => {
+    const ex = new Error('Old error');
+
+    const result = fail(ex);
+
+    assert.that((): void => {
+      unpackOrCrash(
+        result,
+        (): Error => new Error('New error')
+      );
+    }).is.throwing((unpackedEx): boolean => {
+      assert.that(unpackedEx.message).is.equalTo('New error');
+
+      return true;
+    });
+  });
 });

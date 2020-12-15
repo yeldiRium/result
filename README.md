@@ -105,6 +105,13 @@ const value = unpackOrDefault(17, someResult);
 
 // Or, if you can not handle the possible errors appropriately and instead want to crash your application:
 const value = unpackOrCrash(someResult);
+
+// If you want to give more context information before propagating an error, you can optionally supply an error handler.
+// This error *must* return a new Error.
+const value = unpackOrCrash(
+  someResult,
+  (ex) => new ErrorWithMoreContext('Some message', { cause: ex })
+);
 ```
 
 ## Running the quality assurance
