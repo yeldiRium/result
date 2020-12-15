@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/yeldirium/result/compare/v1.1.0...v1.2.0) (2020-12-15)
+
+
+### Features
+
+* Add optional error handler to `unpackOrCrash`. ([4694fba](https://github.com/yeldirium/result/commit/4694fba2d4b46193defd265c8692d3cd65a0916b))
+
 # [1.1.0](https://github.com/yeldirium/result/compare/v1.0.3...v1.1.0) (2020-12-12)
 
 
