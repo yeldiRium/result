@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/yeldirium/result/compare/v1.2.0...v1.2.1) (2021-03-25)
+
+
+### Bug Fixes
+
+* Deprecate package. ([8e30c41](https://github.com/yeldirium/result/commit/8e30c416ac84e4c462d40ecc290ac3962cebf631))
+
 # [1.2.0](https://github.com/yeldirium/result/compare/v1.1.0...v1.2.0) (2020-12-15)
 
 
