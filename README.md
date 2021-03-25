@@ -1,5 +1,9 @@
 # result
 
+**This package is no longer maintained. It is superseded by [defekt](https://github.com/thenativeweb/defekt).**
+
+---
+
 An algebraic datatype wrapper for results and errors.
 
 ## Status
